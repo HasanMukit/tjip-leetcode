@@ -4,7 +4,7 @@ function addTwoNumbers(
 ): ListNode | null {
   // n: number of nodes in the larger list
   // TC: BigO(n)
-  // SC: BigO(1)
+  // SC: BigO(n)
   let carry = 0;
   let digitSum = 0;
   let movingHead = new ListNode(0);
